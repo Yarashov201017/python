@@ -1,0 +1,38 @@
+footer{
+    background-color: rgb(70, 41, 41);
+    color: white;
+    width: 1880px;
+    height: 600px;
+    margin-top: 2000px;
+    color: white;
+    display: inline-block;
+}
+
+p:hover{
+    color:aqua;
+    cursor:default;
+}
+p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.map{
+    width: 1780px;
+    height: 290px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.tel{
+    margin-top: 10px;
+    display: inline-block;
+}
+b:hover{
+    color: aqua;
+    cursor:default;
+}
+b{
+    margin-left: 10px;
+}
+@media (min-width:320px) and (max-height:480px){
+    
+}
