@@ -262,11 +262,11 @@ from sozlar import uzword
 #     matnga="".join(undoshsiz)
 #     return matnga
 # print(undosh_harf("salom"))
-# 34
+# bosh harfni katta qilish
 # def bosh_katta(matn):
 #     return matn.title()
 # print(bosh_katta('salom'))
-# 35
+# yigindi hisoblash
 # def yigindi():
 #     s=0
 #     n=int(input('='))
@@ -275,7 +275,7 @@ from sozlar import uzword
 #         s+=soni
 #     return s
 # print(yigindi())
-# 36
+# yiginding darajasi
 # def yigindi_daraja(son):
 #     string_shakl=str(son)
 #     kopaytma=1
@@ -284,7 +284,7 @@ from sozlar import uzword
 
 #     return kopaytma
 # print(yigindi_daraja(25))
-# 37
+# palidrom son
 # def son_palidrom_tekshir():
 #     n=int(input('son kiriting='))
 #     m=[]    
@@ -294,7 +294,7 @@ from sozlar import uzword
 #     else:
 #         return f'{m}-palidrom emas'
 # print(son_palidrom_tekshir())
-# # 38
+# # palidrom ekanini tekshirish
 # def matn_palidrom():
 #     n=input('matn kirit=').strip()
 #     if n[::-1]==n:
@@ -302,23 +302,23 @@ from sozlar import uzword
 #     else:
 #         return f'{n}-palidrom emas'
 # print(matn_palidrom())
-# 39
+# royhatdagi elemantlar soni
 # def royhat_son():
 #     return len(uzword)
 # print(royhat_son())
-# 40
+# string qilish
 # def string_qilish():
 #     matn=" ".join(uzword)
 #     return matn
 # print(string_qilish())
-# 41
+# tartib bilan chiqar
 # def tartib_chiqar():
 #     royhat=['1','3','2','4','9','5','8','7','0','6']
 #     tartib=sorted( royhat)
 #     return tartib
 # print(tartib_chiqar())
-royhat=[-5,-1,1,3,2,4,9,5,8,7,0,-9,6]
-# 42
+# royhat=[-5,-1,1,3,2,4,9,5,8,7,0,-9,6]
+# juft top
 # def juft():
 #     juftlar=[]
 #     for i in range(len(royhat)):
@@ -326,7 +326,7 @@ royhat=[-5,-1,1,3,2,4,9,5,8,7,0,-9,6]
 #             juftlar.append(i)
 #     return juftlar
 # print(juft())
-# 43
+# manfiy son
 # def manfiy_royhat():
 #     son=[]
 #     n=int(input('='))
@@ -336,20 +336,20 @@ royhat=[-5,-1,1,3,2,4,9,5,8,7,0,-9,6]
 #             son.append(m)
 #     return son
 # print(manfiy_royhat())
-# 44
+# daraja top
 # def daraja_top():
 #     n=float(input('son='))
 #     m=n**2
 #     return f'{n}**2={m}'
 # print(daraja_top())
-# 45
+# teskari so'z 
 # def teskari_matn(soz):
 #     matn=[]
 #     for i in enumerate(soz):
 #         matn.insert(0,i)
 #     return matn
 # print(teskari_matn(uzword))
-# 46
+# KABISA YILI
 # def kabisa_yilli_top():
 #     n=int(input('yil='))
 #     if n%4==0 and n%100!=0 or n%400==0:
@@ -357,13 +357,14 @@ royhat=[-5,-1,1,3,2,4,9,5,8,7,0,-9,6]
 #     else:
 #         return f'{n} kabisa yilli emas'
 # print(kabisa_yilli_top())
-# 47
+# print(kabisa_yilli_top())
+# kvadrat topish
 # def kvadrat_kub():
 #     n=int(input('1='))
 #     a=int(input('2='))
 #     return n**a
 # print(kvadrat_kub())
-# 48
+# kub topish
 # def kub_top():
 #     n=int(input('1='))
 #     return n**3
