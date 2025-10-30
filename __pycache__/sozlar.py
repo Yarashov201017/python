@@ -53,7 +53,7 @@ uzword = [
     'mas’uliyat', 'ijtimoiy himoya', 'sog‘liq', 'tibbiyot', 'dorixona', 'kasalxona', 'dorilar', 'profilaktika', 'davolash', 'ta’sir',
     'ekologiya', 'atrof-muhit', 'tabiat', 'hayvonot', 'o‘simliklar', 'biologiya', 'kimyo', 'fizika', 'matematika', 'geografiya',
     'tarix', 'adabiyot', 'san’at', 'musiqa', 'teatr', 'kino', 'sport', 'jismoniy tarbiya', 'o‘yin', 'mashg‘ulot',
-    'marafon', 'musobaqa', 'yutuq', 'g‘alaba', 'mag‘lubiyat', 'sabr', 'qat’iyat', 'mehnat', 'dam olish', 'sayohat',
+    'marafon', 'musobaqa', 'yutuq', 'g‘alaba', 'mag‘lubiyat', 'sabr', 'qat’iyat', 'mehnat', 'dam' ,'olish', 'sayohat',
     'turar joy', 'uy', 'xona', 'oshxona', 'yotoqxona', 'mehmonxona', 'bog‘', 'ko‘cha', 'maydon', 'park',
     'bog‘cha', 'maktab', 'universitet', 'kutubxona', 'muzey', 'galereya', 'teatr', 'stadion', 'binosi', 'inshoot',
     'ko‘prik', 'yo‘l', 'transport', 'avtomobil', 'velosiped', 'mototsikl', 'avtobus', 'metropoliten', 'samolyot', 'kema',

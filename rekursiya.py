@@ -46,4 +46,35 @@
 #         return son
 #     else:
 #         return 1+ raqam_soni(son//10)
-    
+# raqamla soni
+# def raqam_soni(son):
+#     if son==0:
+#         return 0
+#     else:
+#         return 1+ raqam_soni(son//10)
+# print(raqam_soni(16))
+# teskarilash
+# def teskari(matn):
+#     if len(matn)==0:
+#         return " "
+#     else:
+#         return matn[-1]+teskari(matn[:-1])
+# print(teskari("salom"))
+# royhat yigindisi
+# def royhat_yigindisi(royhat):
+#     if len(royhat)==0:
+#         return 0
+#     else:
+#         return royhat[0]+royhat_yigindisi(royhat[1:])
+# print(royhat_yigindisi([10,10,10,10]))
+# Maksimum topish
+# def royhat_max(royhat):
+#     if len(royhat)==0:
+#         return 0
+#     else:
+#         eng_katta=royhat_max(royhat[1:])
+#         if royhat[0]> eng_katta:
+#             return royhat[0]
+#         else:
+#             return eng_katta
+# print(royhat_max([80,10,20,30,40,50]))

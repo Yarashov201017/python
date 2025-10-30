@@ -66,4 +66,3 @@
 #         return f'<{parol}> kuchli'
 #     else: return f" <{parol}> kuchsiz"
 # print(kuchli_kuchsiz_parol('123456789')) 
-# https://github.com/Yarashov201017/python.git
