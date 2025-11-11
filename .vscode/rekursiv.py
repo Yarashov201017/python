@@ -54,4 +54,4 @@
 # def teskari(matn):
 #     if len(matn)==0:
 #         return 
-# print(teskari('salom'))x
+# print(teskari('salom'))
